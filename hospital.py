@@ -9,7 +9,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from PIL import Image, ImageTk
 
-# ================== THEME & DATABASE ==================
+#THEME & DATABASE
 THEME = {
     "primary_brown": "#4E342E",
     "sidebar_beige": "#D7CCC8",
@@ -300,9 +300,5 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = HospitalApp(root)
     root.mainloop()
-#pip install tkcalendar
-#pip install reportlab
-#pip install pillow
-#python -m pip install tkcalendar reportlab pillow
-#py -m pip install tkcalendar reportlab pillow
+
 
